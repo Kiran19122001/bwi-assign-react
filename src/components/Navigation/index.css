@@ -1,0 +1,55 @@
+.navbar-container {
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.nav-cont-route {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+
+}
+
+.nav-main-cont {
+    height: 100px;
+}
+
+
+.logo-name {
+    font-size: 40px !important;
+    font-weight: 550;
+    font-family: cursive;
+    font-style: normal;
+    padding-left: 5px;
+}
+
+.bars {
+    font-size: 20px !important;
+    font-weight: 600 !important;
+    color: #000 !important;
+    padding-right: 50px !important;
+}
+
+.profile {
+    padding-left: 50px;
+}
+
+
+.container-parent {
+    position: relative;
+
+}
+
+.navigation-items {
+    position: absolute;
+    right: 20px;
+}
+
+.count-nav {
+    margin-left: 5px;
+    padding: 5px 10px;
+    color: blue;
+    background-color: rgb(214, 214, 216);
+    border-radius: 30px;
+}

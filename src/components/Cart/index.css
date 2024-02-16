@@ -1,0 +1,37 @@
+.cart-list-item {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50vw;
+    margin-bottom: 50px;
+    background-color: #d3d2d2;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.title-cart {
+    width: 200px;
+}
+
+.cart-image {
+    height: 100px;
+    width: 200px;
+}
+
+.items-number {
+    margin: 0;
+    padding: 0px 5px;
+}
+
+.total-amount-item {
+    color: blue;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.order-container {
+    position: absolute;
+    right: 500px;
+}

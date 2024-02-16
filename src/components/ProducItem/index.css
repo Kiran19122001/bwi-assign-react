@@ -1,0 +1,72 @@
+.prod-main-cont {
+    display: flex;
+    position: relative;
+    top: 20px;
+    margin-left: 30px;
+
+}
+
+.product-image-crs {
+    height: 70vh;
+    width: 50vw;
+    border-radius: 10px;
+}
+
+.carausal-conainer {
+    width: 50%;
+}
+
+.prod-descript+div {
+    width: 150px
+}
+
+.head-pd-items~p {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.product-d-data {
+    font-size: 20px;
+    font-weight: 550;
+}
+
+.rating {
+    background-color: blue;
+    border-radius: 3px;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+.action-btns {
+    border: none;
+    background-color: rgb(34, 34, 66);
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.action-btns:active {
+    transform: scale(1.05);
+}
+
+.action-btns+p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.add-buttnon {
+    margin-top: 20px;
+    border: none;
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    background: rgb(12, 102, 99);
+    color: #fff;
+    transition: transform 0.3s ease-in-out;
+}
+
+.add-buttnon:active {
+    transform: scale(1.05);
+}
